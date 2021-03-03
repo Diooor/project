@@ -12,7 +12,7 @@ Notepad++ v7.8.8 Enhancements & bug-fixes:
 10. Fix loading of project & session files by drag & drop not working issue.
 11. Fix block selection cursor wrong positions after typing TAB.
 12. Add confirmation prompt to "Replace all in all opened documents" command to avoid PBKAC.
-123
+123567
 123
 Included plugins:
 
