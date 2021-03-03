@@ -2,7 +2,7 @@ package model;
 
 import java.util.ArrayList;
 import java.util.List;
-
+1237
 import model.dao.ProductDAOHibernate;
 import model.hibernate.HibernateUtil;
 
