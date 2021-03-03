@@ -17,6 +17,7 @@ Notepad++ v7.8.8 Enhancements & bug-fixes:
 111111111111111111111111111
 222222
 2222222233333
+111111
 Included plugins:
 
 1.  NppExport v0.2.9
