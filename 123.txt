@@ -14,6 +14,8 @@ Notepad++ v7.8.8 Enhancements & bug-fixes:
 12. Add confirmation prompt to "Replace all in all opened documents" command to avoid PBKAC.
 123567
 123
+111111111111111111111111111
+222222
 Included plugins:
 
 1.  NppExport v0.2.9
