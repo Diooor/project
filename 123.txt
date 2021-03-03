@@ -13,7 +13,7 @@ Notepad++ v7.8.8 Enhancements & bug-fixes:
 11. Fix block selection cursor wrong positions after typing TAB.
 12. Add confirmation prompt to "Replace all in all opened documents" command to avoid PBKAC.
 123
-
+123
 Included plugins:
 
 1.  NppExport v0.2.9
