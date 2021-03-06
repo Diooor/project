@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	default-init-method="init" default-destroy-method="destroy"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="demoBeanXml" class="function08.DemoBeanXml"
+			scope="singleton" init-method="method1" destroy-method="method2">
+		<constructor-arg value="this is demoBean1"></constructor-arg>
+		<property name="field2" value="1234"></property>
+	</bean>
+</beans>

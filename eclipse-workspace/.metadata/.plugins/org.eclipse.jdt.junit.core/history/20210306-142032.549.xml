@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CustomerDAOHibernateTests" project="proj-hibernate" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="model.dao.CustomerDAOHibernateTests" time="3.995">
+    <testcase name="testContext" classname="model.dao.CustomerDAOHibernateTests" time="3.877"/>
+    <testcase name="testSelect" classname="model.dao.CustomerDAOHibernateTests" time="0.086"/>
+    <testcase name="testUpdate" classname="model.dao.CustomerDAOHibernateTests" time="0.032"/>
+  </testsuite>
+</testrun>

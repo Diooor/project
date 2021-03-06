@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="demoService" class="xmlconfig.DemoService3">
+		<property name="demoDao3">
+			<bean class="xmlconfig.DemoDAO3">
+				<property name="field" value="this is field (DemoDAO3 noname)"></property>
+			</bean>
+		</property>
+	</bean>
+
+	<bean id="demoDao" class="xmlconfig.DemoDAO3">
+		<property name="field" value="this is field (DemoDAO3 named)"></property>
+	</bean>		
+	<bean id="demoService1" class="xmlconfig.DemoService3">
+		<property name="demoDao3" ref="demoDao"></property>
+	</bean>
+</beans>

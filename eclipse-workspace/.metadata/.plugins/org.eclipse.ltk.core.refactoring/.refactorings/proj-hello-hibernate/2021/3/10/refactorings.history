@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy source folder &apos;resources&apos; to &apos;proj-hibernate&apos;&#x0D;&#x0A;- Original project: &apos;proj-hello-hibernate&apos;&#x0D;&#x0A;- Destination element: &apos;proj-hibernate&apos;&#x0D;&#x0A;- Original element: &apos;proj-hello-hibernate/src/main/resources&apos;" description="Copy source folder" element1="/src\/main\/resources=/maven.pomderived=/true=/" flags="6" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyRoots" roots="1" stamp="1615012651470" target="/proj-hibernate" version="1.0"/>
+</session>

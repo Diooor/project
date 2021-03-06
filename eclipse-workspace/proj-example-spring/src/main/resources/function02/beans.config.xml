@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="date" class="java.util.Date">
+		<constructor-arg index="2"  value="12"></constructor-arg>
+
+		<constructor-arg index="1"  value="11"></constructor-arg>
+
+
+		<constructor-arg index="0"  value="100"></constructor-arg>
+	</bean>
+
+
+
+	<bean id="demoDao" class="function02.DemoDAO"></bean>
+
+	<bean id="demoService1" name="d1,d2,d3,d1" class="function02.DemoService1">
+		<constructor-arg ref="demoDao"></constructor-arg>
+	</bean>
+	<bean id="demoService2" name="d4,d5" class="function02.DemoService2">
+		<property name="demoDao"  ref="demoDao"></property>
+	</bean>
+</beans>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;proj-test&apos;&#x0D;&#x0A;- Original project: &apos;proj-test&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     proj-test/src/main/java/JDBC程式.model&#x0D;&#x0A;     proj-test/src/main/java/JDBC程式.model.dao&#x0D;&#x0A;- Delete subpackages" description="Delete elements" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;JDBC程式.model.dao" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;JDBC程式.model" element3="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;JDBC程式" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1612593720417" subPackages="true" version="1.0"/>
+</session>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="demoBean1" class="xmlconfig.DemoBean2">
+		<constructor-arg><null></null></constructor-arg>
+	</bean>
+	
+	<bean id="date1" class="java.util.Date">
+		<constructor-arg type="long" value="0"></constructor-arg>
+	</bean>
+	<bean id="demoBean2" class="xmlconfig.DemoBean2">
+		<constructor-arg ref="date1"></constructor-arg>
+	</bean>
+	
+	<bean id="demoBean3" class="xmlconfig.DemoBean2">
+		<constructor-arg>
+			<bean class="java.util.Date">
+				<property name="time" value="86400000"></property>
+			</bean>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="demoBean4" class="xmlconfig.DemoBean2">
+		<constructor-arg name="field3">
+			<list>
+				<value>AAA</value>
+				<value>BBB</value>
+				<value>CCC</value>
+			</list>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="demoBean5" class="xmlconfig.DemoBean2">
+		<constructor-arg name="field4">
+			<map>
+				<entry key="key1" value="this is value1"></entry>
+				<entry key="key2" value="this is value2"></entry>
+				<entry key="key3" value="this is value3"></entry>
+			</map>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="demoBean6" class="xmlconfig.DemoBean2">
+		<constructor-arg name="field5">
+			<props>
+				<prop key="prop1">this is prop1</prop>
+				<prop key="prop2">this is prop2</prop>
+				<prop key="prop3">this is prop3</prop>
+			</props>
+		</constructor-arg>
+	</bean>
+</beans>

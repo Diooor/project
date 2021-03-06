@@ -1,0 +1,13 @@
+package model;
+
+import org.junit.Test;
+
+public class CustomerDAOJDBCTests {
+	
+	
+	@Test
+	public void method() {
+		
+	}
+
+}

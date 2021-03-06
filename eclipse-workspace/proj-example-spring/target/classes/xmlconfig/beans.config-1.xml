@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="demoBean1" class="xmlconfig.DemoBean1">
+		<constructor-arg value="this is demoBean1"></constructor-arg>
+	</bean>
+	<bean id="demoBean2" class="xmlconfig.DemoBean1">
+		<constructor-arg value="this is demoBean2"></constructor-arg>
+		<constructor-arg value="1234"></constructor-arg>
+	</bean>
+	<bean id="demoBean3" class="xmlconfig.DemoBean1">
+		<constructor-arg value="57678"></constructor-arg>
+	</bean>
+	
+	<bean id="demoBean4" class="xmlconfig.DemoBean1">
+		<constructor-arg name="field2" value="57678"></constructor-arg>
+	</bean>
+
+	<bean id="demoBean5" class="xmlconfig.DemoBean1">
+		<constructor-arg index="1" value="1235"></constructor-arg>
+		<constructor-arg index="0" value="this is demoBean5"></constructor-arg>
+	</bean>
+
+	<bean id="demoBean6" class="xmlconfig.DemoBean1">
+		<constructor-arg name="field2" value="1235"></constructor-arg>
+		<constructor-arg name="field1" value="this is demoBean6"></constructor-arg>
+	</bean>
+
+	<bean id="demoBean7" class="xmlconfig.DemoBean1">
+		<constructor-arg type="int" value="1235"></constructor-arg>
+		<constructor-arg type="java.lang.String" value="this is demoBean7"></constructor-arg>
+	</bean>
+
+	<bean id="demoBean8" class="xmlconfig.DemoBean1">
+		<property name="field1" value="this is demoBean8"></property>
+		<property name="field2" value="6789"></property>
+	</bean>
+
+	<bean id="demoBean9" class="xmlconfig.DemoBean1">
+		<constructor-arg value="this is demoBean9"></constructor-arg>
+		<property name="field2" value="123456789"></property>
+	</bean>
+</beans>

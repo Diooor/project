@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="string1" name="string2,string3" class="java.lang.String">
+		<constructor-arg value="this is a string"></constructor-arg>
+	</bean>
+
+	<bean id="date1" class="java.util.Date">
+		<constructor-arg type="long" value="0" />
+	</bean>
+
+	<bean id="date2" class="java.util.Date">
+		<property name="year" value="100"></property>
+		<property name="month" value="10"></property>
+		<property name="date" value="20"></property>
+	</bean>
+	
+	<bean id="date3" class="java.util.Date">
+		<constructor-arg type="long" value="0" />
+		<property name="month" value="10"></property>
+	</bean>
+
+</beans>
